@@ -6,13 +6,14 @@ A: Preparations - how to run dApp locally
 1. Install dependences to work with solidity: npm, node.js, web3, truffle
    You can use commands: npm install
 2. Install Ganache https://archive.trufflesuite.com/docs/ganache/
-3. In assignment2 terminal:
+3. Open project repository on Visual Studio Code
+4. In assignment2 terminal:
    1. Open the Ganache on your machine
    2. Compile smart contracts: truffle compile
    3. Deploy contracts to local network: truffle migrate --reset --network development
-4. In client terminal:
-   1. Run npm run dev - it will open the webpage in your web-browser
-5. Connect to the ganache network on your MetaMask by the private key
+5. In client terminal:
+   1. Run: npm run dev - it will open the webpage in your web-browser
+6. Connect to the ganache network on your MetaMask by the private key
 
 B: Functionality overview
    1. First, you can add the new model to the list.
